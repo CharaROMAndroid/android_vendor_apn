@@ -4838,4 +4838,38 @@
         roaming_protocol="IPV4V6"
         type="mms"
     />
+    <!-- Ringer Mobility (MCC 314 / MNC 740) -->
+    <apn
+        mcc="314"
+        mnc="740"
+        carrier="Ringer Mobility"
+        carrier_id="2717"
+        apn="internet"
+        type="default,ia,supl,hipri,mms,dun"
+        mmsc="http://mmsc.ringer.tel"
+        protocol="IP"
+        roaming_protocol="IP"
+    />
+    <apn
+        mcc="314"
+        mnc="740"
+        carrier="Ringer Mobility IMS"
+        carrier_id="2717"
+        apn="ims"
+        type="ims"
+        protocol="IP"
+        roaming_protocol="IP"
+        user_visible="false"
+    />
+    <apn
+        mcc="314"
+        mnc="740"
+        carrier="Ringer Mobility SOS"
+        carrier_id="2717"
+        apn="sos"
+        type="emergency"
+        protocol="IP"
+        roaming_protocol="IP"
+        user_visible="false"
+    />
 </apns>

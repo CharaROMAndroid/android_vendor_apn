@@ -1574,4 +1574,29 @@
         type="mms"
         user=""
     />
+    <!-- Gigs (MVNO on Orange France, MCC 208 / MNC 01, GID1 4749FFFF) -->
+    <apn
+        mcc="208"
+        mnc="01"
+        carrier="Gigs"
+        apn="gigs.com"
+        type="default,supl,dun"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        user_editable="false"
+        mvno_type="gid"
+        mvno_match_data="4749FFFF"
+    />
+    <apn
+        mcc="208"
+        mnc="01"
+        carrier="Gigs IMS"
+        apn="ims"
+        type="ims"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        user_visible="false"
+        mvno_type="gid"
+        mvno_match_data="4749FFFF"
+    />
 </apns>
