@@ -4872,4 +4872,134 @@
         roaming_protocol="IP"
         user_visible="false"
     />
+    <!-- Dish Network carriers -->
+    <!-- Carrier IDs 2606, 2607, 2609, 2610, 2611 (AT&T reseller) -->
+    <apn
+        mcc="310"
+        mnc="410"
+        carrier="Dish Internet"
+        carrier_id="2606"
+        apn="ereseller"
+        type="default,mms,supl,fota,xcap"
+        mmsc="http://mmsc.mobile.att.net"
+        mmsproxy="proxy.mobile.att.net"
+        mmsport="80"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        user_visible="false"
+    />
+    <apn
+        mcc="310"
+        mnc="410"
+        carrier="Dish Hotspot"
+        carrier_id="2606"
+        apn="resellermht"
+        type="dun"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        user_visible="false"
+    />
+    <apn
+        mcc="310"
+        mnc="410"
+        carrier="Dish IMS"
+        carrier_id="2606"
+        apn="ims"
+        type="ims"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        user_visible="false"
+    />
+    <!-- Boost Mobile (carrier_id 1951) -->
+    <apn
+        mcc="311"
+        mnc="480"
+        carrier="Boost Internet"
+        carrier_id="1951"
+        apn="boost.data"
+        type="default,mms,supl"
+        mmsc="http://sprboost.mmsmvno.com/mms/wapenc"
+        protocol="IPV6"
+        roaming_protocol="IP"
+        user_editable="false"
+    />
+    <apn
+        mcc="311"
+        mnc="480"
+        carrier="Boost Hotspot"
+        carrier_id="1951"
+        apn="boost.tether"
+        type="dun"
+        protocol="IPV6"
+        roaming_protocol="IP"
+        user_editable="false"
+    />
+    <apn
+        mcc="311"
+        mnc="480"
+        carrier="Boost OTA"
+        carrier_id="1951"
+        apn="boost.data"
+        type="fota"
+        protocol="IPV6"
+        roaming_protocol="IP"
+        user_editable="false"
+    />
+    <apn
+        mcc="311"
+        mnc="480"
+        carrier="Boost IMS"
+        carrier_id="1951"
+        apn="ims"
+        type="ims"
+        protocol="IPV6"
+        roaming_protocol="IPV4V6"
+        user_editable="false"
+    />
+    <!-- Dish Wireless native (carrier_id 2523, 2519, 2612) -->
+    <apn
+        mcc="313"
+        mnc="510"
+        carrier="Dish Wireless"
+        carrier_id="2523"
+        apn="wireless.dish.com"
+        type="default,mms,supl"
+        mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
+        protocol="IPV6"
+        roaming_protocol="IP"
+        user_editable="false"
+    />
+    <apn
+        mcc="313"
+        mnc="510"
+        carrier="Dish Tethering"
+        carrier_id="2523"
+        apn="tethering.dish.com"
+        type="dun"
+        protocol="IPV6"
+        roaming_protocol="IP"
+        user_editable="false"
+    />
+    <apn
+        mcc="313"
+        mnc="510"
+        carrier="Dish OTA"
+        carrier_id="2523"
+        apn="wireless.dish.com"
+        type="fota"
+        protocol="IPV6"
+        roaming_protocol="IP"
+        user_editable="false"
+    />
+    <apn
+        mcc="313"
+        mnc="510"
+        carrier="Dish IMS"
+        carrier_id="2523"
+        apn="ims"
+        type="ims"
+        protocol="IPV6"
+        roaming_protocol="IPV4V6"
+        user_editable="false"
+    />
 </apns>
